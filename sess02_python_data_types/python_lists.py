@@ -56,3 +56,27 @@ print(f"The list of fruits in descending order : \n{fruits}")
 #(least and highest fruits letterwise)
 print(f"The least fruits letterwise is :{min(fruits)}"
       f"\nThe highest fruits letterwise is :{max(fruits)}")
+
+
+#Display  the last 2 fruits in the list
+print(f"the last 2 fruits list are : {fruits[-2:]}")
+
+#Display every 2nd fruit starting from thr 2nd one in the fruit list
+print(f" Starting from the second fruit and skipping one fruit we get: \n{fruits[1::2]}")
+
+#Display the fruit list in reverse order without using thr reverse() function
+print(f"The reversed list of fruits is: \n{fruits[::-1]}")
+
+# TODO: display every 3rd fruit in the fruit list
+
+#Display all the fruits from the first and last one
+print(f"All the  fruits  in the list apart fron the first and last one are: \n{fruits[1:-1]}")
+
+# Dispaly inreverse order starting from the 3rd last fuit
+print(f"All the  fruits in reverse order stating from the 3rd last fruit are: \n{fruits[-3::-1]}")
+
+#get and display an empty slice from the frruit list
+print(f"The empty slice from list is : \n{fruits[len(fruits)-1:3]}")
+
+
+
